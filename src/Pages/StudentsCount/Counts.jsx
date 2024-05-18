@@ -1,5 +1,7 @@
 import { Parallax } from "react-parallax";
-
+import { GiFountainPen } from "react-icons/gi";
+import { GiOpenBook } from "react-icons/gi";
+import { MdPhoneAndroid } from "react-icons/md";
 
 const Counts = () => {
     return (
@@ -11,17 +13,20 @@ const Counts = () => {
             <div className="my-10">
                 <Parallax blur={10} bgImage="https://i.ibb.co/yd3Js2R/count-Student.jpg" bgImageAlt="the cat" strength={200}>
                     <div className="flex gap-10 items-center justify-center my-16">
-                        <div>
+                        <div className="flex flex-col items-center justify-center">
+                            <GiFountainPen className="text-6xl text-white"></GiFountainPen>
                             <p className="text-3xl font-medium text-white">1425+</p>
-                            <p className="text-3xl font-medium text-white">Students</p>
+                            <p className="text-3xl font-medium text-white">Running Students</p>
                         </div>
-                        <div>
-                            <p className="text-3xl font-medium text-white">1425+</p>
-                            <p className="text-3xl font-medium text-white">Students</p>
+                        <div className="flex flex-col items-center justify-center">
+                            <GiOpenBook className="text-6xl text-white"></GiOpenBook>
+                            <p className="text-3xl font-medium text-white">425+</p>
+                            <p className="text-3xl font-medium text-white">Teachers</p>
                         </div>
-                        <div>
-                            <p className="text-3xl font-medium text-white">1425+</p>
-                            <p className="text-3xl font-medium text-white">Students</p>
+                        <div className="flex flex-col items-center justify-center">
+                            <MdPhoneAndroid className="text-6xl text-white"></MdPhoneAndroid>
+                            <p className="text-3xl font-medium text-white">926+</p>
+                            <p className="text-3xl font-medium text-white">Online Students</p>
                         </div>
                     </div>
                 </Parallax>
