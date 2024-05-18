@@ -1,13 +1,13 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import './Banner.css'
+
 
 const Banner = () => {
     return (
         <div>
             <Carousel>
                 <div>
-                    <img src="https://i.ibb.co/J3QmVLn/Nahda-Banner1.jpg" />
+                    <img src="https://i.ibb.co/ZLPSMDN/nahda-Banner4.jpg" />
 
                 </div>
                 <div>
