@@ -2,6 +2,7 @@ import { Parallax } from "react-parallax";
 import { GiFountainPen } from "react-icons/gi";
 import { GiOpenBook } from "react-icons/gi";
 import { MdPhoneAndroid } from "react-icons/md";
+import { GrAchievement } from "react-icons/gr";
 
 const Counts = () => {
     return (
@@ -27,6 +28,11 @@ const Counts = () => {
                             <MdPhoneAndroid className="text-6xl text-white"></MdPhoneAndroid>
                             <p className="text-3xl font-medium text-white">926+</p>
                             <p className="text-3xl font-medium text-white">Online Students</p>
+                        </div>
+                        <div className="flex flex-col items-center justify-center">
+                            <GrAchievement className="text-6xl text-white"></GrAchievement>
+                            <p className="text-3xl font-medium text-white">15+</p>
+                            <p className="text-3xl font-medium text-white">Achivements</p>
                         </div>
                     </div>
                 </Parallax>
